@@ -1406,3 +1406,194 @@ section {
 .certification-logo:hover {
   transform: scale(1.1);
 }
+
+/* Project Card */
+.project-card {
+  display: block;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+.project-card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;   /* IMPORTANT */
+  background: #fff;
+  padding: 10px;
+
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: high-quality;
+}
+
+.project-card-body {
+  padding: 15px;
+}
+.project-card-body h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.25rem;
+  color: #333;
+}
+.project-card-body p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+/* Modal */
+.modal-toggle {
+  display: none;
+}
+/* No blur overlay */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  padding: 20px;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+.modal-toggle:checked + * + .modal-backdrop,
+.modal-toggle:checked ~ .modal-backdrop {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.modal-content {
+  background: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  transform: scale(0.9) translate3d(0, 20px, 0);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.modal-toggle:checked + * + .modal-backdrop .modal-content,
+.modal-toggle:checked ~ .modal-backdrop .modal-content {
+  transform: none;
+  opacity: 1;
+}
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #888;
+  background: #f8f9fa;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+.modal-close:hover {
+  background: #e9ecef;
+  color: #555;
+  transform: rotate(90deg);
+}
+.modal-body {
+  padding: 40px 35px;
+}
+.modal-body h3 {
+  margin: 0 0 20px 0;
+  font-size: 2rem;
+  color: #2c3e50;
+  padding-right: 50px;
+}
+.modal-description {
+  margin: 0 0 20px 0;
+  line-height: 1.7;
+  color: #5a6c7d;
+  font-size: 1.05rem;
+}
+.modal-tech {
+  margin: 0 0 25px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  color: #495057;
+  font-size: 0.95rem;
+}
+.modal-tech strong {
+  color: #2c3e50;
+  margin-right: 8px;
+}
+.modal-github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: #0366d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+.modal-github-link:hover {
+  background: #0256c7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(3, 102, 214, 0.3);
+  color: white;
+  text-decoration: none;
+}
+.modal-github-link svg {
+  flex-shrink: 0;
+}
+/* Scrollbar styling for modal */
+.modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+.modal-content::-webkit-scrollbar-track {
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+.modal-content::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 10px;
+}
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+.custom-modal-body {
+  text-align: center;
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 30px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
