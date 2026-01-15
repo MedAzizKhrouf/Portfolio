@@ -123,6 +123,88 @@ The color palette, composed of natural and contrasting tones, strengthens the vi
     link: "https://www.behance.net/gallery/242208451/Meuble-TV-Modlisation-3D-sous-AutoCAD",
     linkLabel: "Find it on Behance →",
   },
+    {
+    title: "TV Unit – 3D Design and Modeling in SketchUp",
+    tools: "SketchUp",
+    cardImg: "projects/tvsktchlogo.png",
+    modalImg: "projects/tvsketch.png",
+    description:
+      
+        ` 
+Design and 3D modeling of a contemporary TV unit created in SketchUp, highlighting a compact and functional structure with clean geometric lines. The project integrates optimized storage spaces as well as a central area dedicated to the screen, promoting ergonomics and visual clarity.
+The work on wood textures enhances the warm and elegant character of the furniture while emphasizing volumes and proportions. This project demonstrates my ability to design functional furniture, master 3D modeling in SketchUp, and transform a concept into a realistic, aesthetic object suitable for domestic use`
+   ,
+    link: "https://www.behance.net/gallery/242241529/meuble-tv",
+    linkLabel: "Find it on Behance →",
+  },
+   {
+    title: "Logo – Graphic Design in Adobe Illustrator",
+    tools: "Adobe Illustrator",
+    cardImg: "projects/logoicon1.png",
+    modalImg: "projects/logo1.png",
+    description:
+      
+        ` Creation of a contemporary logo designed in Adobe Illustrator, based on an organic composition of fluid shapes evoking lightness, harmony, and balance. The combination of blue and violet provides a modern visual identity, symbolizing creativity, confidence, and innovation.
+The clean, curved lines enhance the readability of the symbol while giving it an elegant and dynamic expression. This minimalist design allows easy adaptation across various communication media.
+This project demonstrates my ability to create strong visual identities, master vector design, and translate abstract values into an aesthetic and memorable logo.`
+   ,
+    link: "https://www.behance.net/gallery/242241613/logo",
+    linkLabel: "Find it on Behance →",
+  },
+     {
+    title: "Logo – Graphic Design in Adobe Illustrator",
+    tools: "Adobe Illustrator",
+    cardImg: "projects/logoicon2.png",
+    modalImg: "projects/logo2.png",
+    description:
+      
+        ` Creation of a symbolic logo representing a stylized phoenix, designed in Adobe Illustrator. The design is based on fluid and dynamic lines, expressing the concepts of rebirth, power, and elegance. The upward shape of the wings conveys movement, ambition, and evolution, while the clean silhouette ensures excellent readability.
+The golden tone enhances the noble, prestigious, and timeless character of the symbol. This project demonstrates my ability to design logos with strong symbolic value, master graphic composition, and create impactful and memorable visual identities.`
+   ,
+    link: "https://www.behance.net/gallery/242241687/logo",
+    linkLabel: "Find it on Behance →",
+  },
+      {
+    title: "Logo – Graphic Design in Adobe Illustrator",
+    tools: "Adobe Illustrator",
+    cardImg: "projects/logo3logo.png",
+    modalImg: "projects/logo3.png",
+    description:
+      
+        `Creation of a contemporary logo designed in Adobe Illustrator, based on a circular composition of curved shapes evoking movement, harmony, and continuity. The radial organization of the elements creates a strong central focal point, enhancing the balance and readability of the symbol.
+The combination of gray and gold adds elegance, subtlety, and modernity while strengthening the visual identity. The clean design allows versatile use across digital and printed media.
+This project demonstrates my ability to design coherent, aesthetic, and memorable logos, as well as my mastery of vector graphic creation tools.`
+   ,
+    link: "https://www.behance.net/gallery/242241727/logo",
+    linkLabel: "Find it on Behance →",
+  },
+        {
+    title: "Logo – Graphic Design in Adobe Illustrator",
+    tools: "Adobe Illustrator",
+    cardImg: "projects/logo4logo.png",
+    modalImg: "projects/logo4.png",
+    description:
+      
+        `Creation of a modern and dynamic logo developed in Adobe Illustrator, based on a circular composition of curved shapes symbolizing movement, energy, and continuity. The alternation of orange and gray creates strong contrast and a balanced visual identity that is both professional and expressive.
+The clean design ensures optimal readability and easy adaptation across various communication media. This project demonstrates my ability to create coherent visual identities, master vector tools, and translate abstract values into a strong and memorable graphic symbol.`
+   ,
+    link: "https://www.behance.net/gallery/242241797/logo",
+    linkLabel: "Find it on Behance →",
+  },
+         {
+    title: "Sofa / Armchair – 3D Design and Modeling in Fusion 360",
+    tools: "Fusion 360",
+    cardImg: "projects/sofalogo.png",
+    modalImg: "projects/sofa.png",
+    description:
+      
+        `Design and 3D modeling of an organically shaped sofa created in Fusion 360, highlighting enveloping and ergonomic forms that promote comfort and conviviality. The work on the woven texture enhances the natural and warm character of the furniture while emphasizing its volumes and curves.
+The continuous and harmonious lines create a modern and welcoming silhouette. The sober color palette reinforces the elegance and visual balance of the design.
+This project demonstrates my ability to design furniture with complex forms, master parametric modeling, and produce realistic and aesthetic visualizations suitable for professional presentation.`
+   ,
+    link: "https://www.behance.net/gallery/242241797/logo",
+    linkLabel: "Find it on Behance →",
+  },
   // ...add the rest (up to 32)
 ];
 
